@@ -1,0 +1,5 @@
+/* Staging hardening that must survive mechanical site-kit synchronization. */
+.point-site .tone-section {
+  width: 100vw;
+  margin-inline: calc(50% - 50vw);
+}
