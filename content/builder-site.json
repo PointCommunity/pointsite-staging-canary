@@ -178,7 +178,7 @@
             },
             {
               "id": "3c3c3c3c-0000-4000-8000-000000005000",
-              "span": 5,
+              "span": 4,
               "align": {
                 "desktop": "center",
                 "tablet": "center",
@@ -186,9 +186,9 @@
               },
               "grid": {
                 "desktop": {
-                  "column": 8,
+                  "column": 9,
                   "row": 1,
-                  "columnSpan": 5,
+                  "columnSpan": 4,
                   "rowSpan": 2
                 },
                 "tablet": {
@@ -261,7 +261,8 @@
               "element": {
                 "id": "00000000-0000-4000-8000-000000001001",
                 "type": "hero",
-                "heading": "We are a family of Jesus-followers empowered by the Holy Spirit to make disciples of Jesus in all of life for the glory of God",
+                "heading": "Point Community Church",
+                "body": "We are a family of Jesus-followers empowered by the Holy Spirit to make disciples of Jesus in all of life for the glory of God",
                 "mediaId": "00000000-0000-4000-8000-000000002000",
                 "align": "center",
                 "surface": "image",
@@ -550,98 +551,6 @@
       },
       "blocks": [
         {
-          "id": "5e5e5e5e-0000-4000-8000-000000005001",
-          "type": "section",
-          "name": "Site header",
-          "layout": "grid",
-          "position": "flow",
-          "columns": 12,
-          "gap": "small",
-          "width": "shell",
-          "surface": "primary",
-          "padding": "small",
-          "minRows": 2,
-          "backgroundPosition": "center",
-          "overlay": "none",
-          "items": [
-            {
-              "id": "1a1a1a1a-0000-4000-8000-000000005001",
-              "span": 3,
-              "align": {
-                "desktop": "center",
-                "tablet": "center",
-                "mobile": "center"
-              },
-              "grid": {
-                "desktop": {
-                  "column": 1,
-                  "row": 1,
-                  "columnSpan": 3,
-                  "rowSpan": 2
-                },
-                "tablet": {
-                  "column": 1,
-                  "row": 1,
-                  "columnSpan": 4,
-                  "rowSpan": 2
-                },
-                "mobile": {
-                  "column": 1,
-                  "row": 1,
-                  "columnSpan": 8,
-                  "rowSpan": 2
-                }
-              },
-              "element": {
-                "id": "2b2b2b2b-0000-4000-8000-000000005001",
-                "type": "image",
-                "mediaId": "00000000-0000-4000-8000-000000002017",
-                "alt": "Point Community Church",
-                "aspect": "natural",
-                "fit": "contain",
-                "variant": "wide"
-              }
-            },
-            {
-              "id": "3c3c3c3c-0000-4000-8000-000000005001",
-              "span": 6,
-              "align": {
-                "desktop": "center",
-                "tablet": "center",
-                "mobile": "center"
-              },
-              "grid": {
-                "desktop": {
-                  "column": 7,
-                  "row": 1,
-                  "columnSpan": 6,
-                  "rowSpan": 2
-                },
-                "tablet": {
-                  "column": 5,
-                  "row": 1,
-                  "columnSpan": 8,
-                  "rowSpan": 2
-                },
-                "mobile": {
-                  "column": 1,
-                  "row": 3,
-                  "columnSpan": 12,
-                  "rowSpan": 3
-                }
-              },
-              "element": {
-                "id": "4d4d4d4d-0000-4000-8000-000000005001",
-                "type": "navigation",
-                "label": "Church navigation",
-                "orientation": "responsive",
-                "align": "right",
-                "surface": "transparent"
-              }
-            }
-          ]
-        },
-        {
           "id": "6f1e2d3c-0000-4000-8000-000000005001",
           "type": "section",
           "name": "Page hero",
@@ -691,8 +600,8 @@
                 "heading": "Who We Are",
                 "body": "We are a family of disciples on mission.",
                 "mediaId": "00000000-0000-4000-8000-000000002009",
-                "align": "center",
-                "surface": "primary",
+                "align": "left",
+                "surface": "image",
                 "actions": [],
                 "variant": "pageHero",
                 "headingWidth": {
@@ -705,6 +614,97 @@
                   "tablet": 100,
                   "mobile": 100
                 }
+              }
+            }
+          ]
+        },
+        {
+          "id": "5e5e5e5e-0000-4000-8000-000000005001",
+          "type": "section",
+          "name": "Site header",
+          "layout": "grid",
+          "position": "flow",
+          "columns": 12,
+          "gap": "small",
+          "width": "shell",
+          "surface": "transparent",
+          "padding": "small",
+          "minRows": 2,
+          "backgroundPosition": "center",
+          "overlay": "none",
+          "items": [
+            {
+              "id": "1a1a1a1a-0000-4000-8000-000000005001",
+              "span": 4,
+              "align": {
+                "desktop": "center",
+                "tablet": "center",
+                "mobile": "center"
+              },
+              "grid": {
+                "desktop": {
+                  "column": 1,
+                  "row": 1,
+                  "columnSpan": 4,
+                  "rowSpan": 2
+                },
+                "tablet": {
+                  "column": 1,
+                  "row": 1,
+                  "columnSpan": 4,
+                  "rowSpan": 2
+                },
+                "mobile": {
+                  "column": 1,
+                  "row": 1,
+                  "columnSpan": 8,
+                  "rowSpan": 2
+                }
+              },
+              "element": {
+                "id": "2b2b2b2b-0000-4000-8000-000000005001",
+                "type": "image",
+                "mediaId": "00000000-0000-4000-8000-000000002017",
+                "alt": "Point Community Church",
+                "aspect": "natural",
+                "fit": "contain"
+              }
+            },
+            {
+              "id": "3c3c3c3c-0000-4000-8000-000000005001",
+              "span": 8,
+              "align": {
+                "desktop": "center",
+                "tablet": "center",
+                "mobile": "center"
+              },
+              "grid": {
+                "desktop": {
+                  "column": 5,
+                  "row": 1,
+                  "columnSpan": 8,
+                  "rowSpan": 2
+                },
+                "tablet": {
+                  "column": 5,
+                  "row": 1,
+                  "columnSpan": 8,
+                  "rowSpan": 2
+                },
+                "mobile": {
+                  "column": 1,
+                  "row": 3,
+                  "columnSpan": 12,
+                  "rowSpan": 3
+                }
+              },
+              "element": {
+                "id": "4d4d4d4d-0000-4000-8000-000000005001",
+                "type": "navigation",
+                "label": "Church navigation",
+                "orientation": "responsive",
+                "align": "right",
+                "surface": "transparent"
               }
             }
           ]
@@ -929,98 +929,6 @@
       },
       "blocks": [
         {
-          "id": "5e5e5e5e-0000-4000-8000-000000005002",
-          "type": "section",
-          "name": "Site header",
-          "layout": "grid",
-          "position": "flow",
-          "columns": 12,
-          "gap": "small",
-          "width": "shell",
-          "surface": "primary",
-          "padding": "small",
-          "minRows": 2,
-          "backgroundPosition": "center",
-          "overlay": "none",
-          "items": [
-            {
-              "id": "1a1a1a1a-0000-4000-8000-000000005002",
-              "span": 3,
-              "align": {
-                "desktop": "center",
-                "tablet": "center",
-                "mobile": "center"
-              },
-              "grid": {
-                "desktop": {
-                  "column": 1,
-                  "row": 1,
-                  "columnSpan": 3,
-                  "rowSpan": 2
-                },
-                "tablet": {
-                  "column": 1,
-                  "row": 1,
-                  "columnSpan": 4,
-                  "rowSpan": 2
-                },
-                "mobile": {
-                  "column": 1,
-                  "row": 1,
-                  "columnSpan": 8,
-                  "rowSpan": 2
-                }
-              },
-              "element": {
-                "id": "2b2b2b2b-0000-4000-8000-000000005002",
-                "type": "image",
-                "mediaId": "00000000-0000-4000-8000-000000002017",
-                "alt": "Point Community Church",
-                "aspect": "natural",
-                "fit": "contain",
-                "variant": "wide"
-              }
-            },
-            {
-              "id": "3c3c3c3c-0000-4000-8000-000000005002",
-              "span": 6,
-              "align": {
-                "desktop": "center",
-                "tablet": "center",
-                "mobile": "center"
-              },
-              "grid": {
-                "desktop": {
-                  "column": 7,
-                  "row": 1,
-                  "columnSpan": 6,
-                  "rowSpan": 2
-                },
-                "tablet": {
-                  "column": 5,
-                  "row": 1,
-                  "columnSpan": 8,
-                  "rowSpan": 2
-                },
-                "mobile": {
-                  "column": 1,
-                  "row": 3,
-                  "columnSpan": 12,
-                  "rowSpan": 3
-                }
-              },
-              "element": {
-                "id": "4d4d4d4d-0000-4000-8000-000000005002",
-                "type": "navigation",
-                "label": "Church navigation",
-                "orientation": "responsive",
-                "align": "right",
-                "surface": "transparent"
-              }
-            }
-          ]
-        },
-        {
           "id": "6f1e2d3c-0000-4000-8000-000000005002",
           "type": "section",
           "name": "Page hero",
@@ -1069,7 +977,7 @@
                 "eyebrow": "What We Believe",
                 "heading": "Our Beliefs",
                 "body": "We hold to seven core beliefs as the foundation of our identity and practice as a local church. Regardless of your beliefs, you are welcome to learn with us.",
-                "align": "center",
+                "align": "left",
                 "surface": "primary",
                 "actions": [],
                 "variant": "pageHero",
@@ -1083,6 +991,97 @@
                   "tablet": 100,
                   "mobile": 100
                 }
+              }
+            }
+          ]
+        },
+        {
+          "id": "5e5e5e5e-0000-4000-8000-000000005002",
+          "type": "section",
+          "name": "Site header",
+          "layout": "grid",
+          "position": "flow",
+          "columns": 12,
+          "gap": "small",
+          "width": "shell",
+          "surface": "transparent",
+          "padding": "small",
+          "minRows": 2,
+          "backgroundPosition": "center",
+          "overlay": "none",
+          "items": [
+            {
+              "id": "1a1a1a1a-0000-4000-8000-000000005002",
+              "span": 4,
+              "align": {
+                "desktop": "center",
+                "tablet": "center",
+                "mobile": "center"
+              },
+              "grid": {
+                "desktop": {
+                  "column": 1,
+                  "row": 1,
+                  "columnSpan": 4,
+                  "rowSpan": 2
+                },
+                "tablet": {
+                  "column": 1,
+                  "row": 1,
+                  "columnSpan": 4,
+                  "rowSpan": 2
+                },
+                "mobile": {
+                  "column": 1,
+                  "row": 1,
+                  "columnSpan": 8,
+                  "rowSpan": 2
+                }
+              },
+              "element": {
+                "id": "2b2b2b2b-0000-4000-8000-000000005002",
+                "type": "image",
+                "mediaId": "00000000-0000-4000-8000-000000002017",
+                "alt": "Point Community Church",
+                "aspect": "natural",
+                "fit": "contain"
+              }
+            },
+            {
+              "id": "3c3c3c3c-0000-4000-8000-000000005002",
+              "span": 8,
+              "align": {
+                "desktop": "center",
+                "tablet": "center",
+                "mobile": "center"
+              },
+              "grid": {
+                "desktop": {
+                  "column": 5,
+                  "row": 1,
+                  "columnSpan": 8,
+                  "rowSpan": 2
+                },
+                "tablet": {
+                  "column": 5,
+                  "row": 1,
+                  "columnSpan": 8,
+                  "rowSpan": 2
+                },
+                "mobile": {
+                  "column": 1,
+                  "row": 3,
+                  "columnSpan": 12,
+                  "rowSpan": 3
+                }
+              },
+              "element": {
+                "id": "4d4d4d4d-0000-4000-8000-000000005002",
+                "type": "navigation",
+                "label": "Church navigation",
+                "orientation": "responsive",
+                "align": "right",
+                "surface": "transparent"
               }
             }
           ]
@@ -1245,98 +1244,6 @@
       },
       "blocks": [
         {
-          "id": "5e5e5e5e-0000-4000-8000-000000005003",
-          "type": "section",
-          "name": "Site header",
-          "layout": "grid",
-          "position": "flow",
-          "columns": 12,
-          "gap": "small",
-          "width": "shell",
-          "surface": "primary",
-          "padding": "small",
-          "minRows": 2,
-          "backgroundPosition": "center",
-          "overlay": "none",
-          "items": [
-            {
-              "id": "1a1a1a1a-0000-4000-8000-000000005003",
-              "span": 3,
-              "align": {
-                "desktop": "center",
-                "tablet": "center",
-                "mobile": "center"
-              },
-              "grid": {
-                "desktop": {
-                  "column": 1,
-                  "row": 1,
-                  "columnSpan": 3,
-                  "rowSpan": 2
-                },
-                "tablet": {
-                  "column": 1,
-                  "row": 1,
-                  "columnSpan": 4,
-                  "rowSpan": 2
-                },
-                "mobile": {
-                  "column": 1,
-                  "row": 1,
-                  "columnSpan": 8,
-                  "rowSpan": 2
-                }
-              },
-              "element": {
-                "id": "2b2b2b2b-0000-4000-8000-000000005003",
-                "type": "image",
-                "mediaId": "00000000-0000-4000-8000-000000002017",
-                "alt": "Point Community Church",
-                "aspect": "natural",
-                "fit": "contain",
-                "variant": "wide"
-              }
-            },
-            {
-              "id": "3c3c3c3c-0000-4000-8000-000000005003",
-              "span": 5,
-              "align": {
-                "desktop": "center",
-                "tablet": "center",
-                "mobile": "center"
-              },
-              "grid": {
-                "desktop": {
-                  "column": 8,
-                  "row": 1,
-                  "columnSpan": 5,
-                  "rowSpan": 2
-                },
-                "tablet": {
-                  "column": 5,
-                  "row": 1,
-                  "columnSpan": 8,
-                  "rowSpan": 2
-                },
-                "mobile": {
-                  "column": 1,
-                  "row": 3,
-                  "columnSpan": 12,
-                  "rowSpan": 3
-                }
-              },
-              "element": {
-                "id": "4d4d4d4d-0000-4000-8000-000000005003",
-                "type": "navigation",
-                "label": "Church navigation",
-                "orientation": "responsive",
-                "align": "right",
-                "surface": "transparent"
-              }
-            }
-          ]
-        },
-        {
           "id": "6f1e2d3c-0000-4000-8000-000000005003",
           "type": "section",
           "name": "Page hero",
@@ -1385,7 +1292,7 @@
                 "eyebrow": "Team & Staff",
                 "heading": "Leadership",
                 "body": "Meet the elders, ministry leaders, and staff who equip our church family to be the church.",
-                "align": "center",
+                "align": "left",
                 "surface": "primary",
                 "actions": [],
                 "variant": "pageHero",
@@ -1399,6 +1306,97 @@
                   "tablet": 100,
                   "mobile": 100
                 }
+              }
+            }
+          ]
+        },
+        {
+          "id": "5e5e5e5e-0000-4000-8000-000000005003",
+          "type": "section",
+          "name": "Site header",
+          "layout": "grid",
+          "position": "flow",
+          "columns": 12,
+          "gap": "small",
+          "width": "shell",
+          "surface": "transparent",
+          "padding": "small",
+          "minRows": 2,
+          "backgroundPosition": "center",
+          "overlay": "none",
+          "items": [
+            {
+              "id": "1a1a1a1a-0000-4000-8000-000000005003",
+              "span": 4,
+              "align": {
+                "desktop": "center",
+                "tablet": "center",
+                "mobile": "center"
+              },
+              "grid": {
+                "desktop": {
+                  "column": 1,
+                  "row": 1,
+                  "columnSpan": 4,
+                  "rowSpan": 2
+                },
+                "tablet": {
+                  "column": 1,
+                  "row": 1,
+                  "columnSpan": 4,
+                  "rowSpan": 2
+                },
+                "mobile": {
+                  "column": 1,
+                  "row": 1,
+                  "columnSpan": 8,
+                  "rowSpan": 2
+                }
+              },
+              "element": {
+                "id": "2b2b2b2b-0000-4000-8000-000000005003",
+                "type": "image",
+                "mediaId": "00000000-0000-4000-8000-000000002017",
+                "alt": "Point Community Church",
+                "aspect": "natural",
+                "fit": "contain"
+              }
+            },
+            {
+              "id": "3c3c3c3c-0000-4000-8000-000000005003",
+              "span": 8,
+              "align": {
+                "desktop": "center",
+                "tablet": "center",
+                "mobile": "center"
+              },
+              "grid": {
+                "desktop": {
+                  "column": 5,
+                  "row": 1,
+                  "columnSpan": 8,
+                  "rowSpan": 2
+                },
+                "tablet": {
+                  "column": 5,
+                  "row": 1,
+                  "columnSpan": 8,
+                  "rowSpan": 2
+                },
+                "mobile": {
+                  "column": 1,
+                  "row": 3,
+                  "columnSpan": 12,
+                  "rowSpan": 3
+                }
+              },
+              "element": {
+                "id": "4d4d4d4d-0000-4000-8000-000000005003",
+                "type": "navigation",
+                "label": "Church navigation",
+                "orientation": "responsive",
+                "align": "right",
+                "surface": "transparent"
               }
             }
           ]
@@ -1454,9 +1452,7 @@
                   "00000000-0000-4000-8000-000000006001",
                   "00000000-0000-4000-8000-000000006002",
                   "00000000-0000-4000-8000-000000006003",
-                  "00000000-0000-4000-8000-000000006004",
-                  "a1daef45-aa46-45f5-a677-2fbe44874ac3",
-                  "6918312a-d32e-49e8-a978-27b0f34d5fa1"
+                  "00000000-0000-4000-8000-000000006004"
                 ],
                 "layout": "grid",
                 "variant": "leadership"
@@ -1516,12 +1512,12 @@
                   {
                     "eyebrow": "Leadership",
                     "title": "Structure",
-                    "body": "Jesus Christ is the head of the Church. At each local expression, He calls specific followers to provide leadership and care. Their primary role is to equip the church to be the church, not to take on the entire ministry of the congregation themselves. As such, Point focuses on a decentralized model.\n\nTo assist the church in accomplishing Christ's mission, Point affirms the necessity of Deacons as the \"First Servants\" of various teams or ministries and is partly an administrative role. Biblically, a Deacon is a spiritually mature man or woman who has been set apart by the Holy Spirit and the local church for day-to-day service as required. \n\nIn addition, Point supports Neighborhood Group Leaders as spiritual leaders in a pastoral role, supporting the church in neighborhoods across South Austin. Neighborhood Groups are vital to our walk as believers, where we organize service opportunities and do life together as a community."
+                    "body": "Jesus Christ is the head of the Church. At each local expression, he calls specific followers to provide leadership and care. Their primary role is to equip the church to be the church, not to take on the entire ministry of the congregation themselves."
                   },
                   {
                     "eyebrow": "Elders",
                     "title": "Shared leadership",
-                    "body": "Elders are biblically qualified men who govern and teach sound doctrine. Point Community’s Elder Team leads together—equal in authority and accountability, unique in function, and unified in direction and vision.\n\nDeacons function in submission to the local church elders in regards to all doctrinal questions, following after them as they follow Jesus Christ. Exercising spiritual authority within the Church is Biblically instructed to be exercised by men alone and Point Church affirms this view. Due to the practical nature of a “Deacon” Point Church also upholds that a Deacon may be male or female just as Phoebe was named among those in that role in Romans 16:1. \n\nNeighborhood Group Leaders  are similar to Deacons in most ways, except  that they support the growth and spiritual development of the church at a local level. Fostering stronger communities within the church and actively being involved in the mission of spreading the gospel in the day to day."
+                    "body": "Elders are biblically qualified men who govern and teach sound doctrine. Point Community’s Elder Team leads together—equal in authority and accountability, unique in function, and unified in direction and vision."
                   }
                 ],
                 "variant": "splitEditorialTone"
@@ -1614,98 +1610,6 @@
       },
       "blocks": [
         {
-          "id": "5e5e5e5e-0000-4000-8000-000000005004",
-          "type": "section",
-          "name": "Site header",
-          "layout": "grid",
-          "position": "flow",
-          "columns": 12,
-          "gap": "small",
-          "width": "shell",
-          "surface": "primary",
-          "padding": "small",
-          "minRows": 2,
-          "backgroundPosition": "center",
-          "overlay": "none",
-          "items": [
-            {
-              "id": "1a1a1a1a-0000-4000-8000-000000005004",
-              "span": 3,
-              "align": {
-                "desktop": "center",
-                "tablet": "center",
-                "mobile": "center"
-              },
-              "grid": {
-                "desktop": {
-                  "column": 1,
-                  "row": 1,
-                  "columnSpan": 3,
-                  "rowSpan": 2
-                },
-                "tablet": {
-                  "column": 1,
-                  "row": 1,
-                  "columnSpan": 4,
-                  "rowSpan": 2
-                },
-                "mobile": {
-                  "column": 1,
-                  "row": 1,
-                  "columnSpan": 8,
-                  "rowSpan": 2
-                }
-              },
-              "element": {
-                "id": "2b2b2b2b-0000-4000-8000-000000005004",
-                "type": "image",
-                "mediaId": "00000000-0000-4000-8000-000000002017",
-                "alt": "Point Community Church",
-                "aspect": "natural",
-                "fit": "contain",
-                "variant": "wide"
-              }
-            },
-            {
-              "id": "3c3c3c3c-0000-4000-8000-000000005004",
-              "span": 6,
-              "align": {
-                "desktop": "center",
-                "tablet": "center",
-                "mobile": "center"
-              },
-              "grid": {
-                "desktop": {
-                  "column": 7,
-                  "row": 1,
-                  "columnSpan": 6,
-                  "rowSpan": 2
-                },
-                "tablet": {
-                  "column": 5,
-                  "row": 1,
-                  "columnSpan": 8,
-                  "rowSpan": 2
-                },
-                "mobile": {
-                  "column": 1,
-                  "row": 3,
-                  "columnSpan": 12,
-                  "rowSpan": 3
-                }
-              },
-              "element": {
-                "id": "4d4d4d4d-0000-4000-8000-000000005004",
-                "type": "navigation",
-                "label": "Church navigation",
-                "orientation": "responsive",
-                "align": "right",
-                "surface": "transparent"
-              }
-            }
-          ]
-        },
-        {
           "id": "6f1e2d3c-0000-4000-8000-000000005004",
           "type": "section",
           "name": "Page hero",
@@ -1755,8 +1659,8 @@
                 "heading": "Next Generation",
                 "body": "We believe kids are not the Church of tomorrow, but the Church today.",
                 "mediaId": "00000000-0000-4000-8000-000000002005",
-                "align": "center",
-                "surface": "primary",
+                "align": "left",
+                "surface": "image",
                 "actions": [],
                 "variant": "pageHero",
                 "headingWidth": {
@@ -1769,6 +1673,97 @@
                   "tablet": 100,
                   "mobile": 100
                 }
+              }
+            }
+          ]
+        },
+        {
+          "id": "5e5e5e5e-0000-4000-8000-000000005004",
+          "type": "section",
+          "name": "Site header",
+          "layout": "grid",
+          "position": "flow",
+          "columns": 12,
+          "gap": "small",
+          "width": "shell",
+          "surface": "transparent",
+          "padding": "small",
+          "minRows": 2,
+          "backgroundPosition": "center",
+          "overlay": "none",
+          "items": [
+            {
+              "id": "1a1a1a1a-0000-4000-8000-000000005004",
+              "span": 4,
+              "align": {
+                "desktop": "center",
+                "tablet": "center",
+                "mobile": "center"
+              },
+              "grid": {
+                "desktop": {
+                  "column": 1,
+                  "row": 1,
+                  "columnSpan": 4,
+                  "rowSpan": 2
+                },
+                "tablet": {
+                  "column": 1,
+                  "row": 1,
+                  "columnSpan": 4,
+                  "rowSpan": 2
+                },
+                "mobile": {
+                  "column": 1,
+                  "row": 1,
+                  "columnSpan": 8,
+                  "rowSpan": 2
+                }
+              },
+              "element": {
+                "id": "2b2b2b2b-0000-4000-8000-000000005004",
+                "type": "image",
+                "mediaId": "00000000-0000-4000-8000-000000002017",
+                "alt": "Point Community Church",
+                "aspect": "natural",
+                "fit": "contain"
+              }
+            },
+            {
+              "id": "3c3c3c3c-0000-4000-8000-000000005004",
+              "span": 8,
+              "align": {
+                "desktop": "center",
+                "tablet": "center",
+                "mobile": "center"
+              },
+              "grid": {
+                "desktop": {
+                  "column": 5,
+                  "row": 1,
+                  "columnSpan": 8,
+                  "rowSpan": 2
+                },
+                "tablet": {
+                  "column": 5,
+                  "row": 1,
+                  "columnSpan": 8,
+                  "rowSpan": 2
+                },
+                "mobile": {
+                  "column": 1,
+                  "row": 3,
+                  "columnSpan": 12,
+                  "rowSpan": 3
+                }
+              },
+              "element": {
+                "id": "4d4d4d4d-0000-4000-8000-000000005004",
+                "type": "navigation",
+                "label": "Church navigation",
+                "orientation": "responsive",
+                "align": "right",
+                "surface": "transparent"
               }
             }
           ]
@@ -1959,98 +1954,6 @@
       },
       "blocks": [
         {
-          "id": "5e5e5e5e-0000-4000-8000-000000005005",
-          "type": "section",
-          "name": "Site header",
-          "layout": "grid",
-          "position": "flow",
-          "columns": 12,
-          "gap": "small",
-          "width": "shell",
-          "surface": "primary",
-          "padding": "small",
-          "minRows": 2,
-          "backgroundPosition": "center",
-          "overlay": "none",
-          "items": [
-            {
-              "id": "1a1a1a1a-0000-4000-8000-000000005005",
-              "span": 3,
-              "align": {
-                "desktop": "center",
-                "tablet": "center",
-                "mobile": "center"
-              },
-              "grid": {
-                "desktop": {
-                  "column": 1,
-                  "row": 1,
-                  "columnSpan": 3,
-                  "rowSpan": 2
-                },
-                "tablet": {
-                  "column": 1,
-                  "row": 1,
-                  "columnSpan": 4,
-                  "rowSpan": 2
-                },
-                "mobile": {
-                  "column": 1,
-                  "row": 1,
-                  "columnSpan": 8,
-                  "rowSpan": 2
-                }
-              },
-              "element": {
-                "id": "2b2b2b2b-0000-4000-8000-000000005005",
-                "type": "image",
-                "mediaId": "00000000-0000-4000-8000-000000002017",
-                "alt": "Point Community Church",
-                "aspect": "natural",
-                "fit": "contain",
-                "variant": "wide"
-              }
-            },
-            {
-              "id": "3c3c3c3c-0000-4000-8000-000000005005",
-              "span": 6,
-              "align": {
-                "desktop": "center",
-                "tablet": "center",
-                "mobile": "center"
-              },
-              "grid": {
-                "desktop": {
-                  "column": 7,
-                  "row": 1,
-                  "columnSpan": 6,
-                  "rowSpan": 2
-                },
-                "tablet": {
-                  "column": 5,
-                  "row": 1,
-                  "columnSpan": 8,
-                  "rowSpan": 2
-                },
-                "mobile": {
-                  "column": 1,
-                  "row": 3,
-                  "columnSpan": 12,
-                  "rowSpan": 3
-                }
-              },
-              "element": {
-                "id": "4d4d4d4d-0000-4000-8000-000000005005",
-                "type": "navigation",
-                "label": "Church navigation",
-                "orientation": "responsive",
-                "align": "right",
-                "surface": "transparent"
-              }
-            }
-          ]
-        },
-        {
           "id": "6f1e2d3c-0000-4000-8000-000000005005",
           "type": "section",
           "name": "Page hero",
@@ -2099,7 +2002,7 @@
                 "eyebrow": "Welcome to our family",
                 "heading": "Connect Card",
                 "body": "We're glad you're here. Tell us a little about yourself so we can help you get connected.",
-                "align": "center",
+                "align": "left",
                 "surface": "primary",
                 "actions": [],
                 "variant": "pageHero",
@@ -2113,6 +2016,97 @@
                   "tablet": 100,
                   "mobile": 100
                 }
+              }
+            }
+          ]
+        },
+        {
+          "id": "5e5e5e5e-0000-4000-8000-000000005005",
+          "type": "section",
+          "name": "Site header",
+          "layout": "grid",
+          "position": "flow",
+          "columns": 12,
+          "gap": "small",
+          "width": "shell",
+          "surface": "transparent",
+          "padding": "small",
+          "minRows": 2,
+          "backgroundPosition": "center",
+          "overlay": "none",
+          "items": [
+            {
+              "id": "1a1a1a1a-0000-4000-8000-000000005005",
+              "span": 4,
+              "align": {
+                "desktop": "center",
+                "tablet": "center",
+                "mobile": "center"
+              },
+              "grid": {
+                "desktop": {
+                  "column": 1,
+                  "row": 1,
+                  "columnSpan": 4,
+                  "rowSpan": 2
+                },
+                "tablet": {
+                  "column": 1,
+                  "row": 1,
+                  "columnSpan": 4,
+                  "rowSpan": 2
+                },
+                "mobile": {
+                  "column": 1,
+                  "row": 1,
+                  "columnSpan": 8,
+                  "rowSpan": 2
+                }
+              },
+              "element": {
+                "id": "2b2b2b2b-0000-4000-8000-000000005005",
+                "type": "image",
+                "mediaId": "00000000-0000-4000-8000-000000002017",
+                "alt": "Point Community Church",
+                "aspect": "natural",
+                "fit": "contain"
+              }
+            },
+            {
+              "id": "3c3c3c3c-0000-4000-8000-000000005005",
+              "span": 8,
+              "align": {
+                "desktop": "center",
+                "tablet": "center",
+                "mobile": "center"
+              },
+              "grid": {
+                "desktop": {
+                  "column": 5,
+                  "row": 1,
+                  "columnSpan": 8,
+                  "rowSpan": 2
+                },
+                "tablet": {
+                  "column": 5,
+                  "row": 1,
+                  "columnSpan": 8,
+                  "rowSpan": 2
+                },
+                "mobile": {
+                  "column": 1,
+                  "row": 3,
+                  "columnSpan": 12,
+                  "rowSpan": 3
+                }
+              },
+              "element": {
+                "id": "4d4d4d4d-0000-4000-8000-000000005005",
+                "type": "navigation",
+                "label": "Church navigation",
+                "orientation": "responsive",
+                "align": "right",
+                "surface": "transparent"
               }
             }
           ]
@@ -2184,98 +2178,6 @@
       },
       "blocks": [
         {
-          "id": "5e5e5e5e-0000-4000-8000-000000005006",
-          "type": "section",
-          "name": "Site header",
-          "layout": "grid",
-          "position": "flow",
-          "columns": 12,
-          "gap": "small",
-          "width": "shell",
-          "surface": "primary",
-          "padding": "small",
-          "minRows": 2,
-          "backgroundPosition": "center",
-          "overlay": "none",
-          "items": [
-            {
-              "id": "1a1a1a1a-0000-4000-8000-000000005006",
-              "span": 3,
-              "align": {
-                "desktop": "center",
-                "tablet": "center",
-                "mobile": "center"
-              },
-              "grid": {
-                "desktop": {
-                  "column": 1,
-                  "row": 1,
-                  "columnSpan": 3,
-                  "rowSpan": 2
-                },
-                "tablet": {
-                  "column": 1,
-                  "row": 1,
-                  "columnSpan": 4,
-                  "rowSpan": 2
-                },
-                "mobile": {
-                  "column": 1,
-                  "row": 1,
-                  "columnSpan": 8,
-                  "rowSpan": 2
-                }
-              },
-              "element": {
-                "id": "2b2b2b2b-0000-4000-8000-000000005006",
-                "type": "image",
-                "mediaId": "00000000-0000-4000-8000-000000002017",
-                "alt": "Point Community Church",
-                "aspect": "natural",
-                "fit": "contain",
-                "variant": "wide"
-              }
-            },
-            {
-              "id": "3c3c3c3c-0000-4000-8000-000000005006",
-              "span": 6,
-              "align": {
-                "desktop": "center",
-                "tablet": "center",
-                "mobile": "center"
-              },
-              "grid": {
-                "desktop": {
-                  "column": 7,
-                  "row": 1,
-                  "columnSpan": 6,
-                  "rowSpan": 2
-                },
-                "tablet": {
-                  "column": 5,
-                  "row": 1,
-                  "columnSpan": 8,
-                  "rowSpan": 2
-                },
-                "mobile": {
-                  "column": 1,
-                  "row": 3,
-                  "columnSpan": 12,
-                  "rowSpan": 3
-                }
-              },
-              "element": {
-                "id": "4d4d4d4d-0000-4000-8000-000000005006",
-                "type": "navigation",
-                "label": "Church navigation",
-                "orientation": "responsive",
-                "align": "right",
-                "surface": "transparent"
-              }
-            }
-          ]
-        },
-        {
           "id": "6f1e2d3c-0000-4000-8000-000000005006",
           "type": "section",
           "name": "Page hero",
@@ -2325,8 +2227,8 @@
                 "heading": "Neighborhood Groups",
                 "body": "Neighborhood Groups are smaller groups where we can be the church together in the places we live, work, play, and learn.",
                 "mediaId": "00000000-0000-4000-8000-000000002008",
-                "align": "center",
-                "surface": "primary",
+                "align": "left",
+                "surface": "image",
                 "actions": [],
                 "variant": "pageHero",
                 "headingWidth": {
@@ -2339,6 +2241,97 @@
                   "tablet": 100,
                   "mobile": 100
                 }
+              }
+            }
+          ]
+        },
+        {
+          "id": "5e5e5e5e-0000-4000-8000-000000005006",
+          "type": "section",
+          "name": "Site header",
+          "layout": "grid",
+          "position": "flow",
+          "columns": 12,
+          "gap": "small",
+          "width": "shell",
+          "surface": "transparent",
+          "padding": "small",
+          "minRows": 2,
+          "backgroundPosition": "center",
+          "overlay": "none",
+          "items": [
+            {
+              "id": "1a1a1a1a-0000-4000-8000-000000005006",
+              "span": 4,
+              "align": {
+                "desktop": "center",
+                "tablet": "center",
+                "mobile": "center"
+              },
+              "grid": {
+                "desktop": {
+                  "column": 1,
+                  "row": 1,
+                  "columnSpan": 4,
+                  "rowSpan": 2
+                },
+                "tablet": {
+                  "column": 1,
+                  "row": 1,
+                  "columnSpan": 4,
+                  "rowSpan": 2
+                },
+                "mobile": {
+                  "column": 1,
+                  "row": 1,
+                  "columnSpan": 8,
+                  "rowSpan": 2
+                }
+              },
+              "element": {
+                "id": "2b2b2b2b-0000-4000-8000-000000005006",
+                "type": "image",
+                "mediaId": "00000000-0000-4000-8000-000000002017",
+                "alt": "Point Community Church",
+                "aspect": "natural",
+                "fit": "contain"
+              }
+            },
+            {
+              "id": "3c3c3c3c-0000-4000-8000-000000005006",
+              "span": 8,
+              "align": {
+                "desktop": "center",
+                "tablet": "center",
+                "mobile": "center"
+              },
+              "grid": {
+                "desktop": {
+                  "column": 5,
+                  "row": 1,
+                  "columnSpan": 8,
+                  "rowSpan": 2
+                },
+                "tablet": {
+                  "column": 5,
+                  "row": 1,
+                  "columnSpan": 8,
+                  "rowSpan": 2
+                },
+                "mobile": {
+                  "column": 1,
+                  "row": 3,
+                  "columnSpan": 12,
+                  "rowSpan": 3
+                }
+              },
+              "element": {
+                "id": "4d4d4d4d-0000-4000-8000-000000005006",
+                "type": "navigation",
+                "label": "Church navigation",
+                "orientation": "responsive",
+                "align": "right",
+                "surface": "transparent"
               }
             }
           ]
@@ -2568,98 +2561,6 @@
       },
       "blocks": [
         {
-          "id": "5e5e5e5e-0000-4000-8000-000000005007",
-          "type": "section",
-          "name": "Site header",
-          "layout": "grid",
-          "position": "flow",
-          "columns": 12,
-          "gap": "small",
-          "width": "shell",
-          "surface": "primary",
-          "padding": "small",
-          "minRows": 2,
-          "backgroundPosition": "center",
-          "overlay": "none",
-          "items": [
-            {
-              "id": "1a1a1a1a-0000-4000-8000-000000005007",
-              "span": 3,
-              "align": {
-                "desktop": "center",
-                "tablet": "center",
-                "mobile": "center"
-              },
-              "grid": {
-                "desktop": {
-                  "column": 1,
-                  "row": 1,
-                  "columnSpan": 3,
-                  "rowSpan": 2
-                },
-                "tablet": {
-                  "column": 1,
-                  "row": 1,
-                  "columnSpan": 4,
-                  "rowSpan": 2
-                },
-                "mobile": {
-                  "column": 1,
-                  "row": 1,
-                  "columnSpan": 8,
-                  "rowSpan": 2
-                }
-              },
-              "element": {
-                "id": "2b2b2b2b-0000-4000-8000-000000005007",
-                "type": "image",
-                "mediaId": "00000000-0000-4000-8000-000000002017",
-                "alt": "Point Community Church",
-                "aspect": "natural",
-                "fit": "contain",
-                "variant": "wide"
-              }
-            },
-            {
-              "id": "3c3c3c3c-0000-4000-8000-000000005007",
-              "span": 6,
-              "align": {
-                "desktop": "center",
-                "tablet": "center",
-                "mobile": "center"
-              },
-              "grid": {
-                "desktop": {
-                  "column": 7,
-                  "row": 1,
-                  "columnSpan": 6,
-                  "rowSpan": 2
-                },
-                "tablet": {
-                  "column": 5,
-                  "row": 1,
-                  "columnSpan": 8,
-                  "rowSpan": 2
-                },
-                "mobile": {
-                  "column": 1,
-                  "row": 3,
-                  "columnSpan": 12,
-                  "rowSpan": 3
-                }
-              },
-              "element": {
-                "id": "4d4d4d4d-0000-4000-8000-000000005007",
-                "type": "navigation",
-                "label": "Church navigation",
-                "orientation": "responsive",
-                "align": "right",
-                "surface": "transparent"
-              }
-            }
-          ]
-        },
-        {
           "id": "6f1e2d3c-0000-4000-8000-000000005007",
           "type": "section",
           "name": "Page hero",
@@ -2708,7 +2609,7 @@
                 "eyebrow": "We would be honored to pray",
                 "heading": "Prayer Requests",
                 "body": "Our team prays for every request we receive on a regular basis.",
-                "align": "center",
+                "align": "left",
                 "surface": "primary",
                 "actions": [],
                 "variant": "pageHero",
@@ -2722,6 +2623,97 @@
                   "tablet": 100,
                   "mobile": 100
                 }
+              }
+            }
+          ]
+        },
+        {
+          "id": "5e5e5e5e-0000-4000-8000-000000005007",
+          "type": "section",
+          "name": "Site header",
+          "layout": "grid",
+          "position": "flow",
+          "columns": 12,
+          "gap": "small",
+          "width": "shell",
+          "surface": "transparent",
+          "padding": "small",
+          "minRows": 2,
+          "backgroundPosition": "center",
+          "overlay": "none",
+          "items": [
+            {
+              "id": "1a1a1a1a-0000-4000-8000-000000005007",
+              "span": 4,
+              "align": {
+                "desktop": "center",
+                "tablet": "center",
+                "mobile": "center"
+              },
+              "grid": {
+                "desktop": {
+                  "column": 1,
+                  "row": 1,
+                  "columnSpan": 4,
+                  "rowSpan": 2
+                },
+                "tablet": {
+                  "column": 1,
+                  "row": 1,
+                  "columnSpan": 4,
+                  "rowSpan": 2
+                },
+                "mobile": {
+                  "column": 1,
+                  "row": 1,
+                  "columnSpan": 8,
+                  "rowSpan": 2
+                }
+              },
+              "element": {
+                "id": "2b2b2b2b-0000-4000-8000-000000005007",
+                "type": "image",
+                "mediaId": "00000000-0000-4000-8000-000000002017",
+                "alt": "Point Community Church",
+                "aspect": "natural",
+                "fit": "contain"
+              }
+            },
+            {
+              "id": "3c3c3c3c-0000-4000-8000-000000005007",
+              "span": 8,
+              "align": {
+                "desktop": "center",
+                "tablet": "center",
+                "mobile": "center"
+              },
+              "grid": {
+                "desktop": {
+                  "column": 5,
+                  "row": 1,
+                  "columnSpan": 8,
+                  "rowSpan": 2
+                },
+                "tablet": {
+                  "column": 5,
+                  "row": 1,
+                  "columnSpan": 8,
+                  "rowSpan": 2
+                },
+                "mobile": {
+                  "column": 1,
+                  "row": 3,
+                  "columnSpan": 12,
+                  "rowSpan": 3
+                }
+              },
+              "element": {
+                "id": "4d4d4d4d-0000-4000-8000-000000005007",
+                "type": "navigation",
+                "label": "Church navigation",
+                "orientation": "responsive",
+                "align": "right",
+                "surface": "transparent"
               }
             }
           ]
@@ -2793,98 +2785,6 @@
       },
       "blocks": [
         {
-          "id": "5e5e5e5e-0000-4000-8000-000000005008",
-          "type": "section",
-          "name": "Site header",
-          "layout": "grid",
-          "position": "flow",
-          "columns": 12,
-          "gap": "small",
-          "width": "shell",
-          "surface": "primary",
-          "padding": "small",
-          "minRows": 2,
-          "backgroundPosition": "center",
-          "overlay": "none",
-          "items": [
-            {
-              "id": "1a1a1a1a-0000-4000-8000-000000005008",
-              "span": 3,
-              "align": {
-                "desktop": "center",
-                "tablet": "center",
-                "mobile": "center"
-              },
-              "grid": {
-                "desktop": {
-                  "column": 1,
-                  "row": 1,
-                  "columnSpan": 3,
-                  "rowSpan": 2
-                },
-                "tablet": {
-                  "column": 1,
-                  "row": 1,
-                  "columnSpan": 4,
-                  "rowSpan": 2
-                },
-                "mobile": {
-                  "column": 1,
-                  "row": 1,
-                  "columnSpan": 8,
-                  "rowSpan": 2
-                }
-              },
-              "element": {
-                "id": "2b2b2b2b-0000-4000-8000-000000005008",
-                "type": "image",
-                "mediaId": "00000000-0000-4000-8000-000000002017",
-                "alt": "Point Community Church",
-                "aspect": "natural",
-                "fit": "contain",
-                "variant": "wide"
-              }
-            },
-            {
-              "id": "3c3c3c3c-0000-4000-8000-000000005008",
-              "span": 6,
-              "align": {
-                "desktop": "center",
-                "tablet": "center",
-                "mobile": "center"
-              },
-              "grid": {
-                "desktop": {
-                  "column": 7,
-                  "row": 1,
-                  "columnSpan": 6,
-                  "rowSpan": 2
-                },
-                "tablet": {
-                  "column": 5,
-                  "row": 1,
-                  "columnSpan": 8,
-                  "rowSpan": 2
-                },
-                "mobile": {
-                  "column": 1,
-                  "row": 3,
-                  "columnSpan": 12,
-                  "rowSpan": 3
-                }
-              },
-              "element": {
-                "id": "4d4d4d4d-0000-4000-8000-000000005008",
-                "type": "navigation",
-                "label": "Church navigation",
-                "orientation": "responsive",
-                "align": "right",
-                "surface": "transparent"
-              }
-            }
-          ]
-        },
-        {
           "id": "6f1e2d3c-0000-4000-8000-000000005008",
           "type": "section",
           "name": "Page hero",
@@ -2934,8 +2834,8 @@
                 "heading": "Giving",
                 "body": "God is generous, and so he calls us to be as well.",
                 "mediaId": "00000000-0000-4000-8000-000000002004",
-                "align": "center",
-                "surface": "primary",
+                "align": "left",
+                "surface": "image",
                 "actions": [],
                 "variant": "pageHero",
                 "headingWidth": {
@@ -2948,6 +2848,97 @@
                   "tablet": 100,
                   "mobile": 100
                 }
+              }
+            }
+          ]
+        },
+        {
+          "id": "5e5e5e5e-0000-4000-8000-000000005008",
+          "type": "section",
+          "name": "Site header",
+          "layout": "grid",
+          "position": "flow",
+          "columns": 12,
+          "gap": "small",
+          "width": "shell",
+          "surface": "transparent",
+          "padding": "small",
+          "minRows": 2,
+          "backgroundPosition": "center",
+          "overlay": "none",
+          "items": [
+            {
+              "id": "1a1a1a1a-0000-4000-8000-000000005008",
+              "span": 4,
+              "align": {
+                "desktop": "center",
+                "tablet": "center",
+                "mobile": "center"
+              },
+              "grid": {
+                "desktop": {
+                  "column": 1,
+                  "row": 1,
+                  "columnSpan": 4,
+                  "rowSpan": 2
+                },
+                "tablet": {
+                  "column": 1,
+                  "row": 1,
+                  "columnSpan": 4,
+                  "rowSpan": 2
+                },
+                "mobile": {
+                  "column": 1,
+                  "row": 1,
+                  "columnSpan": 8,
+                  "rowSpan": 2
+                }
+              },
+              "element": {
+                "id": "2b2b2b2b-0000-4000-8000-000000005008",
+                "type": "image",
+                "mediaId": "00000000-0000-4000-8000-000000002017",
+                "alt": "Point Community Church",
+                "aspect": "natural",
+                "fit": "contain"
+              }
+            },
+            {
+              "id": "3c3c3c3c-0000-4000-8000-000000005008",
+              "span": 8,
+              "align": {
+                "desktop": "center",
+                "tablet": "center",
+                "mobile": "center"
+              },
+              "grid": {
+                "desktop": {
+                  "column": 5,
+                  "row": 1,
+                  "columnSpan": 8,
+                  "rowSpan": 2
+                },
+                "tablet": {
+                  "column": 5,
+                  "row": 1,
+                  "columnSpan": 8,
+                  "rowSpan": 2
+                },
+                "mobile": {
+                  "column": 1,
+                  "row": 3,
+                  "columnSpan": 12,
+                  "rowSpan": 3
+                }
+              },
+              "element": {
+                "id": "4d4d4d4d-0000-4000-8000-000000005008",
+                "type": "navigation",
+                "label": "Church navigation",
+                "orientation": "responsive",
+                "align": "right",
+                "surface": "transparent"
               }
             }
           ]
@@ -3146,98 +3137,6 @@
       },
       "blocks": [
         {
-          "id": "5e5e5e5e-0000-4000-8000-000000005009",
-          "type": "section",
-          "name": "Site header",
-          "layout": "grid",
-          "position": "flow",
-          "columns": 12,
-          "gap": "small",
-          "width": "shell",
-          "surface": "primary",
-          "padding": "small",
-          "minRows": 2,
-          "backgroundPosition": "center",
-          "overlay": "none",
-          "items": [
-            {
-              "id": "1a1a1a1a-0000-4000-8000-000000005009",
-              "span": 3,
-              "align": {
-                "desktop": "center",
-                "tablet": "center",
-                "mobile": "center"
-              },
-              "grid": {
-                "desktop": {
-                  "column": 1,
-                  "row": 1,
-                  "columnSpan": 3,
-                  "rowSpan": 2
-                },
-                "tablet": {
-                  "column": 1,
-                  "row": 1,
-                  "columnSpan": 4,
-                  "rowSpan": 2
-                },
-                "mobile": {
-                  "column": 1,
-                  "row": 1,
-                  "columnSpan": 8,
-                  "rowSpan": 2
-                }
-              },
-              "element": {
-                "id": "2b2b2b2b-0000-4000-8000-000000005009",
-                "type": "image",
-                "mediaId": "00000000-0000-4000-8000-000000002017",
-                "alt": "Point Community Church",
-                "aspect": "natural",
-                "fit": "contain",
-                "variant": "wide"
-              }
-            },
-            {
-              "id": "3c3c3c3c-0000-4000-8000-000000005009",
-              "span": 6,
-              "align": {
-                "desktop": "center",
-                "tablet": "center",
-                "mobile": "center"
-              },
-              "grid": {
-                "desktop": {
-                  "column": 7,
-                  "row": 1,
-                  "columnSpan": 6,
-                  "rowSpan": 2
-                },
-                "tablet": {
-                  "column": 5,
-                  "row": 1,
-                  "columnSpan": 8,
-                  "rowSpan": 2
-                },
-                "mobile": {
-                  "column": 1,
-                  "row": 3,
-                  "columnSpan": 12,
-                  "rowSpan": 3
-                }
-              },
-              "element": {
-                "id": "4d4d4d4d-0000-4000-8000-000000005009",
-                "type": "navigation",
-                "label": "Church navigation",
-                "orientation": "responsive",
-                "align": "right",
-                "surface": "transparent"
-              }
-            }
-          ]
-        },
-        {
           "id": "6f1e2d3c-0000-4000-8000-000000005009",
           "type": "section",
           "name": "Page hero",
@@ -3286,7 +3185,7 @@
                 "eyebrow": "Get in touch",
                 "heading": "Contact Us",
                 "body": "If you have questions or would like more information about Point ATX, we would love to hear from you.",
-                "align": "center",
+                "align": "left",
                 "surface": "primary",
                 "actions": [],
                 "variant": "pageHero",
@@ -3300,6 +3199,97 @@
                   "tablet": 100,
                   "mobile": 100
                 }
+              }
+            }
+          ]
+        },
+        {
+          "id": "5e5e5e5e-0000-4000-8000-000000005009",
+          "type": "section",
+          "name": "Site header",
+          "layout": "grid",
+          "position": "flow",
+          "columns": 12,
+          "gap": "small",
+          "width": "shell",
+          "surface": "transparent",
+          "padding": "small",
+          "minRows": 2,
+          "backgroundPosition": "center",
+          "overlay": "none",
+          "items": [
+            {
+              "id": "1a1a1a1a-0000-4000-8000-000000005009",
+              "span": 4,
+              "align": {
+                "desktop": "center",
+                "tablet": "center",
+                "mobile": "center"
+              },
+              "grid": {
+                "desktop": {
+                  "column": 1,
+                  "row": 1,
+                  "columnSpan": 4,
+                  "rowSpan": 2
+                },
+                "tablet": {
+                  "column": 1,
+                  "row": 1,
+                  "columnSpan": 4,
+                  "rowSpan": 2
+                },
+                "mobile": {
+                  "column": 1,
+                  "row": 1,
+                  "columnSpan": 8,
+                  "rowSpan": 2
+                }
+              },
+              "element": {
+                "id": "2b2b2b2b-0000-4000-8000-000000005009",
+                "type": "image",
+                "mediaId": "00000000-0000-4000-8000-000000002017",
+                "alt": "Point Community Church",
+                "aspect": "natural",
+                "fit": "contain"
+              }
+            },
+            {
+              "id": "3c3c3c3c-0000-4000-8000-000000005009",
+              "span": 8,
+              "align": {
+                "desktop": "center",
+                "tablet": "center",
+                "mobile": "center"
+              },
+              "grid": {
+                "desktop": {
+                  "column": 5,
+                  "row": 1,
+                  "columnSpan": 8,
+                  "rowSpan": 2
+                },
+                "tablet": {
+                  "column": 5,
+                  "row": 1,
+                  "columnSpan": 8,
+                  "rowSpan": 2
+                },
+                "mobile": {
+                  "column": 1,
+                  "row": 3,
+                  "columnSpan": 12,
+                  "rowSpan": 3
+                }
+              },
+              "element": {
+                "id": "4d4d4d4d-0000-4000-8000-000000005009",
+                "type": "navigation",
+                "label": "Church navigation",
+                "orientation": "responsive",
+                "align": "right",
+                "surface": "transparent"
               }
             }
           ]
@@ -3435,98 +3425,6 @@
       },
       "blocks": [
         {
-          "id": "5e5e5e5e-0000-4000-8000-000000005010",
-          "type": "section",
-          "name": "Site header",
-          "layout": "grid",
-          "position": "flow",
-          "columns": 12,
-          "gap": "small",
-          "width": "shell",
-          "surface": "primary",
-          "padding": "small",
-          "minRows": 2,
-          "backgroundPosition": "center",
-          "overlay": "none",
-          "items": [
-            {
-              "id": "1a1a1a1a-0000-4000-8000-000000005010",
-              "span": 3,
-              "align": {
-                "desktop": "center",
-                "tablet": "center",
-                "mobile": "center"
-              },
-              "grid": {
-                "desktop": {
-                  "column": 1,
-                  "row": 1,
-                  "columnSpan": 3,
-                  "rowSpan": 2
-                },
-                "tablet": {
-                  "column": 1,
-                  "row": 1,
-                  "columnSpan": 4,
-                  "rowSpan": 2
-                },
-                "mobile": {
-                  "column": 1,
-                  "row": 1,
-                  "columnSpan": 8,
-                  "rowSpan": 2
-                }
-              },
-              "element": {
-                "id": "2b2b2b2b-0000-4000-8000-000000005010",
-                "type": "image",
-                "mediaId": "00000000-0000-4000-8000-000000002017",
-                "alt": "Point Community Church",
-                "aspect": "natural",
-                "fit": "contain",
-                "variant": "wide"
-              }
-            },
-            {
-              "id": "3c3c3c3c-0000-4000-8000-000000005010",
-              "span": 6,
-              "align": {
-                "desktop": "center",
-                "tablet": "center",
-                "mobile": "center"
-              },
-              "grid": {
-                "desktop": {
-                  "column": 7,
-                  "row": 1,
-                  "columnSpan": 6,
-                  "rowSpan": 2
-                },
-                "tablet": {
-                  "column": 5,
-                  "row": 1,
-                  "columnSpan": 8,
-                  "rowSpan": 2
-                },
-                "mobile": {
-                  "column": 1,
-                  "row": 3,
-                  "columnSpan": 12,
-                  "rowSpan": 3
-                }
-              },
-              "element": {
-                "id": "4d4d4d4d-0000-4000-8000-000000005010",
-                "type": "navigation",
-                "label": "Church navigation",
-                "orientation": "responsive",
-                "align": "right",
-                "surface": "transparent"
-              }
-            }
-          ]
-        },
-        {
           "id": "6f1e2d3c-0000-4000-8000-000000005010",
           "type": "section",
           "name": "Page hero",
@@ -3575,7 +3473,7 @@
                 "eyebrow": "Request the space",
                 "heading": "Building Rental",
                 "body": "Tell us about your organization and the date, time, and length of your requested rental.",
-                "align": "center",
+                "align": "left",
                 "surface": "primary",
                 "actions": [],
                 "variant": "pageHero",
@@ -3589,6 +3487,97 @@
                   "tablet": 100,
                   "mobile": 100
                 }
+              }
+            }
+          ]
+        },
+        {
+          "id": "5e5e5e5e-0000-4000-8000-000000005010",
+          "type": "section",
+          "name": "Site header",
+          "layout": "grid",
+          "position": "flow",
+          "columns": 12,
+          "gap": "small",
+          "width": "shell",
+          "surface": "transparent",
+          "padding": "small",
+          "minRows": 2,
+          "backgroundPosition": "center",
+          "overlay": "none",
+          "items": [
+            {
+              "id": "1a1a1a1a-0000-4000-8000-000000005010",
+              "span": 4,
+              "align": {
+                "desktop": "center",
+                "tablet": "center",
+                "mobile": "center"
+              },
+              "grid": {
+                "desktop": {
+                  "column": 1,
+                  "row": 1,
+                  "columnSpan": 4,
+                  "rowSpan": 2
+                },
+                "tablet": {
+                  "column": 1,
+                  "row": 1,
+                  "columnSpan": 4,
+                  "rowSpan": 2
+                },
+                "mobile": {
+                  "column": 1,
+                  "row": 1,
+                  "columnSpan": 8,
+                  "rowSpan": 2
+                }
+              },
+              "element": {
+                "id": "2b2b2b2b-0000-4000-8000-000000005010",
+                "type": "image",
+                "mediaId": "00000000-0000-4000-8000-000000002017",
+                "alt": "Point Community Church",
+                "aspect": "natural",
+                "fit": "contain"
+              }
+            },
+            {
+              "id": "3c3c3c3c-0000-4000-8000-000000005010",
+              "span": 8,
+              "align": {
+                "desktop": "center",
+                "tablet": "center",
+                "mobile": "center"
+              },
+              "grid": {
+                "desktop": {
+                  "column": 5,
+                  "row": 1,
+                  "columnSpan": 8,
+                  "rowSpan": 2
+                },
+                "tablet": {
+                  "column": 5,
+                  "row": 1,
+                  "columnSpan": 8,
+                  "rowSpan": 2
+                },
+                "mobile": {
+                  "column": 1,
+                  "row": 3,
+                  "columnSpan": 12,
+                  "rowSpan": 3
+                }
+              },
+              "element": {
+                "id": "4d4d4d4d-0000-4000-8000-000000005010",
+                "type": "navigation",
+                "label": "Church navigation",
+                "orientation": "responsive",
+                "align": "right",
+                "surface": "transparent"
               }
             }
           ]
@@ -4161,151 +4150,98 @@
   "media": [
     {
       "id": "00000000-0000-4000-8000-000000002000",
-      "sourcePath": "/assets/builder/2c94dbf0-91c4-44b4-bb45-4c6d0a1a08af/b10bfad8-c78d-491c-a65e-231b6a08fccf/austin-skyline.jpeg",
+      "sourcePath": "/assets/builder/aeb3bac8-8571-4afb-a3f6-244c2e9fc816/d2e7bb38-15c1-4e67-9d4f-adccf75bd1d2/austin-skyline.jpeg",
       "alt": "Austin skyline over the Colorado River"
     },
     {
       "id": "00000000-0000-4000-8000-000000002001",
-      "sourcePath": "/assets/builder/2c94dbf0-91c4-44b4-bb45-4c6d0a1a08af/e948acf9-3347-4aa6-bf88-6d9388b669ca/neighborhood-table.jpeg",
+      "sourcePath": "/assets/builder/aeb3bac8-8571-4afb-a3f6-244c2e9fc816/036560f8-ebe4-46d6-a6d7-fda84d134bc7/neighborhood-table.jpeg",
       "alt": "Friends and families sharing a meal"
     },
     {
       "id": "00000000-0000-4000-8000-000000002002",
-      "sourcePath": "/assets/builder/2c94dbf0-91c4-44b4-bb45-4c6d0a1a08af/09cbb8fd-68e7-4835-b188-85252413c458/next-generation.jpeg",
+      "sourcePath": "/assets/builder/aeb3bac8-8571-4afb-a3f6-244c2e9fc816/4963af28-e9f1-46e3-a3f3-f2cc7be5b3a2/next-generation.jpeg",
       "alt": "Families worshiping together at Point ATX"
     },
     {
       "id": "00000000-0000-4000-8000-000000002003",
-      "sourcePath": "/assets/builder/2c94dbf0-91c4-44b4-bb45-4c6d0a1a08af/5007b36c-b943-4d18-a4be-385a7df56fab/next-generation-secondary.jpeg",
+      "sourcePath": "/assets/builder/aeb3bac8-8571-4afb-a3f6-244c2e9fc816/5a6435a3-7be2-4570-a024-63724690b5ba/next-generation-secondary.jpeg",
       "alt": "Point families gathering together"
     },
     {
       "id": "00000000-0000-4000-8000-000000002004",
-      "sourcePath": "/assets/builder/2c94dbf0-91c4-44b4-bb45-4c6d0a1a08af/483a443e-74c7-40eb-8558-3392927f69bc/giving.png",
+      "sourcePath": "/assets/builder/aeb3bac8-8571-4afb-a3f6-244c2e9fc816/0d440737-11f8-487e-bc57-4e794dc46340/giving.png",
       "alt": "Point Community Church giving"
     },
     {
       "id": "00000000-0000-4000-8000-000000002005",
-      "sourcePath": "/assets/builder/2c94dbf0-91c4-44b4-bb45-4c6d0a1a08af/2f07589c-53a9-44ec-9892-2db34cc8c22e/kids-ministry-1.jpeg",
+      "sourcePath": "/assets/builder/aeb3bac8-8571-4afb-a3f6-244c2e9fc816/5ebe885b-ee9b-46dc-ae83-6727a966e630/kids-ministry-1.jpeg",
       "alt": "Children participating in Point kids ministry"
     },
     {
       "id": "00000000-0000-4000-8000-000000002006",
-      "sourcePath": "/assets/builder/2c94dbf0-91c4-44b4-bb45-4c6d0a1a08af/f02c3e0b-d7a8-45b4-99bd-02e7efae57f0/kids-ministry-2.jpeg",
+      "sourcePath": "/assets/builder/aeb3bac8-8571-4afb-a3f6-244c2e9fc816/7ae1e1cf-6f34-4022-a0b9-2f9375621233/kids-ministry-2.jpeg",
       "alt": "Point ATX kids ministry"
     },
     {
       "id": "00000000-0000-4000-8000-000000002007",
-      "sourcePath": "/assets/builder/2c94dbf0-91c4-44b4-bb45-4c6d0a1a08af/46aaf2e4-2706-4e7a-be17-53a08039617d/kids-ministry-3.jpeg",
+      "sourcePath": "/assets/builder/aeb3bac8-8571-4afb-a3f6-244c2e9fc816/dfd8958a-e008-4178-aa3f-a1c28c56edd4/kids-ministry-3.jpeg",
       "alt": "Children and families at Point ATX"
     },
     {
       "id": "00000000-0000-4000-8000-000000002008",
-      "sourcePath": "/assets/builder/2c94dbf0-91c4-44b4-bb45-4c6d0a1a08af/ab666b8d-8ffb-4f9b-8d43-67ceaa4d8c94/neighborhood-map.png",
+      "sourcePath": "/assets/builder/aeb3bac8-8571-4afb-a3f6-244c2e9fc816/7a1a568a-c785-4961-aa86-0ea3c32e88e3/neighborhood-map.png",
       "alt": "Map of Point neighborhood groups"
     },
     {
       "id": "00000000-0000-4000-8000-000000002009",
-      "sourcePath": "/assets/builder/2c94dbf0-91c4-44b4-bb45-4c6d0a1a08af/b75dd8dd-dc67-40a3-b4bf-65f512daa56d/who-we-are.jpeg",
+      "sourcePath": "/assets/builder/aeb3bac8-8571-4afb-a3f6-244c2e9fc816/d6fab8fc-c5b5-4bf3-b9a3-755b45f7971f/who-we-are.jpeg",
       "alt": "Point Community Church gathered together"
     },
     {
       "id": "00000000-0000-4000-8000-000000002010",
-      "sourcePath": "/assets/builder/2c94dbf0-91c4-44b4-bb45-4c6d0a1a08af/a82e2a0c-42f2-470d-89de-082c678dd8bc/gonzo-gonzales.jpeg",
+      "sourcePath": "/assets/builder/aeb3bac8-8571-4afb-a3f6-244c2e9fc816/abb3b6e5-3e7f-4b9b-9de3-a8c94dd8a917/gonzo-gonzales.jpeg",
       "alt": "Gonzo Gonzales"
     },
     {
       "id": "00000000-0000-4000-8000-000000002011",
-      "sourcePath": "/assets/builder/2c94dbf0-91c4-44b4-bb45-4c6d0a1a08af/95abdf1a-6c58-406a-87bb-0ef5bf4a6490/josh-currer.jpeg",
+      "sourcePath": "/assets/builder/aeb3bac8-8571-4afb-a3f6-244c2e9fc816/157a262d-4e19-4fdc-883d-7bcb0aab145b/josh-currer.jpeg",
       "alt": "Josh Currer"
     },
     {
+      "id": "00000000-0000-4000-8000-000000002012",
+      "sourcePath": "/assets/builder/aeb3bac8-8571-4afb-a3f6-244c2e9fc816/50ceb61d-2bbe-4126-be5a-fab701a5c146/landon-berryhill.jpeg",
+      "alt": "Landon Berryhill"
+    },
+    {
       "id": "00000000-0000-4000-8000-000000002013",
-      "sourcePath": "/assets/builder/2c94dbf0-91c4-44b4-bb45-4c6d0a1a08af/798575b3-40aa-404a-93f1-c8722c2fab5d/laura-munoz.jpeg",
+      "sourcePath": "/assets/builder/aeb3bac8-8571-4afb-a3f6-244c2e9fc816/cb2d04e6-b320-4170-8db3-c1d669be0c57/laura-munoz.jpeg",
       "alt": "Laura Munoz"
     },
     {
       "id": "00000000-0000-4000-8000-000000002014",
-      "sourcePath": "/assets/builder/2c94dbf0-91c4-44b4-bb45-4c6d0a1a08af/d27f0896-7895-464f-a3fe-260df637f052/nick-shock.jpeg",
+      "sourcePath": "/assets/builder/aeb3bac8-8571-4afb-a3f6-244c2e9fc816/3066d529-3f61-4300-b600-77ec70f07a5d/nick-shock.jpeg",
       "alt": "Nick Shock"
     },
     {
       "id": "00000000-0000-4000-8000-000000002015",
-      "sourcePath": "/assets/builder/2c94dbf0-91c4-44b4-bb45-4c6d0a1a08af/9bd76005-eb00-4c62-8fbf-9c9ef42eb5ba/sandra-louviere.jpeg",
+      "sourcePath": "/assets/builder/aeb3bac8-8571-4afb-a3f6-244c2e9fc816/afb08730-fa79-4e0e-a43d-cc5f7c5b2a76/sandra-louviere.jpeg",
       "alt": "Sandra Louviere"
     },
     {
+      "id": "00000000-0000-4000-8000-000000002016",
+      "sourcePath": "/assets/builder/aeb3bac8-8571-4afb-a3f6-244c2e9fc816/a7983edc-cec4-48a3-853a-d336bafd5ff5/tim-gillen.jpeg",
+      "alt": "Tim Gillen"
+    },
+    {
       "id": "00000000-0000-4000-8000-000000002017",
-      "sourcePath": "/assets/builder/2c94dbf0-91c4-44b4-bb45-4c6d0a1a08af/27e7877a-38b6-4d12-97fe-6f2d9aa51eff/point-logo.png",
+      "sourcePath": "/assets/builder/aeb3bac8-8571-4afb-a3f6-244c2e9fc816/63b1de1c-b427-45a3-8b54-bf06942ba610/point-logo.png",
       "alt": "Point Community Church"
     },
     {
       "id": "00000000-0000-4000-8000-000000002018",
-      "sourcePath": "/assets/builder/2c94dbf0-91c4-44b4-bb45-4c6d0a1a08af/9678675c-cdfa-4106-9954-6be0b23bf009/point-wordmark.jpeg",
+      "sourcePath": "/assets/builder/aeb3bac8-8571-4afb-a3f6-244c2e9fc816/472334b9-dbf7-4c2a-855e-ce7c0485df4e/point-wordmark.jpeg",
       "alt": "Point Community Church"
-    },
-    {
-      "id": "74789e27-cb00-44d2-80b0-b6d6bbc6df73",
-      "sourcePath": "/assets/builder/2c94dbf0-91c4-44b4-bb45-4c6d0a1a08af/83b6bd44-e1d8-4e1f-8419-ce0c4213498e/sandra-louviere.webp",
-      "alt": "Sandra Louviere",
-      "displayName": "Sandra Louviere",
-      "tags": []
-    },
-    {
-      "id": "0bacb324-093d-498e-b8b1-cf0117ff87e6",
-      "sourcePath": "/assets/builder/2c94dbf0-91c4-44b4-bb45-4c6d0a1a08af/c2866290-4dcb-46f2-882f-06e25132430d/chris-piedra.webp",
-      "alt": "Chris Piedra",
-      "displayName": "Chris Piedra",
-      "tags": []
-    },
-    {
-      "id": "5ca0fbc9-9eeb-4b75-a98f-7069aeeb5c1f",
-      "sourcePath": "/assets/builder/2c94dbf0-91c4-44b4-bb45-4c6d0a1a08af/750a6d0d-2bb7-4852-be0f-6daa7c434748/caleb-bryant.webp",
-      "alt": "Caleb Bryant",
-      "displayName": "Caleb Bryant",
-      "tags": []
-    },
-    {
-      "id": "9efc74d8-1dac-41b0-8104-3838ceb43c37",
-      "sourcePath": "/assets/builder/2c94dbf0-91c4-44b4-bb45-4c6d0a1a08af/0bb50e6b-b4c6-453e-9caf-e0deb4832c4d/gonzo-gonzalez.webp",
-      "alt": "Gonzo Gonzalez",
-      "displayName": "Gonzo Gonzalez",
-      "tags": []
-    },
-    {
-      "id": "cf9255d8-96bb-4964-ab18-3cc3f1f48cc4",
-      "sourcePath": "/assets/builder/2c94dbf0-91c4-44b4-bb45-4c6d0a1a08af/dbe47e89-62e0-4bc2-b93d-17b96fcc86bd/jase-and-claire.webp",
-      "alt": "Jase and Claire",
-      "displayName": "Jase and Claire",
-      "tags": []
-    },
-    {
-      "id": "270286b9-6c3a-4496-9c86-264c735d01e6",
-      "sourcePath": "/assets/builder/2c94dbf0-91c4-44b4-bb45-4c6d0a1a08af/c78dd875-21d0-482b-865d-206c9fb7dd8a/joey-and-roberta.webp",
-      "alt": "Joey and Roberta",
-      "displayName": "Joey and Roberta",
-      "tags": []
-    },
-    {
-      "id": "f7765185-c26f-4374-b51d-7665dd290d94",
-      "sourcePath": "/assets/builder/2c94dbf0-91c4-44b4-bb45-4c6d0a1a08af/ad111f62-aeea-4663-ba69-c81637c7c094/nick-and-jada.webp",
-      "alt": "Nick and Jada",
-      "displayName": "Nick and Jada",
-      "tags": []
-    },
-    {
-      "id": "a5d03e2e-74b7-4b27-bee3-c9f29783771d",
-      "sourcePath": "/assets/builder/2c94dbf0-91c4-44b4-bb45-4c6d0a1a08af/3eda9e76-a82c-4509-808b-62ab586f02ee/russell-and-kristin.webp",
-      "alt": "Russell and Kristin",
-      "displayName": "Russell and Kristin",
-      "tags": []
-    },
-    {
-      "id": "a07ba7c6-8313-4f68-b3d1-a4ed41d6120f",
-      "sourcePath": "/assets/builder/2c94dbf0-91c4-44b4-bb45-4c6d0a1a08af/432b06f7-6114-495f-b1c9-055aa8d579fe/nick-shock.webp",
-      "alt": "Nick Shock",
-      "displayName": "Nick Shock",
-      "tags": []
     }
   ],
   "linkedMedia": [],
@@ -4316,7 +4252,7 @@
         "name": "Nick Shock",
         "role": "Leadership & Teaching Elder",
         "bio": "Nick Shock serves Point Community Church.",
-        "mediaId": "a07ba7c6-8313-4f68-b3d1-a4ed41d6120f",
+        "mediaId": "00000000-0000-4000-8000-000000002014",
         "mediaAlt": "Nick Shock"
       },
       {
@@ -4332,7 +4268,7 @@
         "name": "Gonzo Gonzales",
         "role": "Elder",
         "bio": "Gonzo Gonzales serves Point Community Church.",
-        "mediaId": "9efc74d8-1dac-41b0-8104-3838ceb43c37",
+        "mediaId": "00000000-0000-4000-8000-000000002010",
         "mediaAlt": "Gonzo Gonzales"
       },
       {
@@ -4348,22 +4284,8 @@
         "name": "Sandra Louviere",
         "role": "Administrator",
         "bio": "Sandra Louviere serves Point Community Church.",
-        "mediaId": "74789e27-cb00-44d2-80b0-b6d6bbc6df73",
+        "mediaId": "00000000-0000-4000-8000-000000002015",
         "mediaAlt": "Sandra Louviere"
-      },
-      {
-        "id": "a1daef45-aa46-45f5-a677-2fbe44874ac3",
-        "name": "Caleb Bryant",
-        "role": "Deacon",
-        "bio": "Caleb Bryant serves Point Community Church.",
-        "mediaId": "5ca0fbc9-9eeb-4b75-a98f-7069aeeb5c1f"
-      },
-      {
-        "id": "6918312a-d32e-49e8-a978-27b0f34d5fa1",
-        "name": "Chris Piedra",
-        "role": "Worship Team Leader",
-        "bio": "Chris Piedra serves Point Community Church.",
-        "mediaId": "0bacb324-093d-498e-b8b1-cf0117ff87e6"
       }
     ],
     "beliefs": [
